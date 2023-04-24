@@ -38,7 +38,7 @@ button#ans {
   background-color: darkred;
   color: white;
 }
-
+button#delete-all,
 button#ans,
 input {
   width: 50%;
