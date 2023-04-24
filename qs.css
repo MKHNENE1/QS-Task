@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+body {
+  background-color: gray;
+}
+
+form {
+  width: 70%;
+  /* height: 200px; */
+  /* background-color: aqua; */
+  margin: 0 auto;
+  padding: 25px 0 0 0;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+
+.values p {
+  margin: 0 5px 0 5px;
+  color: white;
+}
+.values {
+  /* background-color: aqua; */
+  padding: 25px 20px 0 20px;
+  display: flex;
+  justify-content: center;
+}
+
+button#ans {
+  background-color: darkred;
+  color: white;
+}
+
+button#ans,
+input {
+  width: 50%;
+  padding: 20px 3%;
+  border-radius: 24px;
+  /* border: 0; */
+}
+
+form #qsn-btn {
+  width: 15%;
+  /* height: 50px; */
+  padding: 20px 3%;
+  border-radius: 24px;
+  text-align: center;
+  margin: 0 0 0 5px;
+}
+
+#qanda {
+  width: 50%;
+  /* background-color: aqua; */
+  margin: 0 auto;
+  /* padding: 25px 0 0 0; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#qs input {
+  width: 100%;
+}
+#qs textarea {
+  border-radius: 24px;
+  width: 100%;
+  margin: 10px 0;
+  padding: 20px;
+}
+
+#qanda #qs {
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+}
+#qs {
+  margin-top: 30px;
+}
+#ans {
+  margin: 20px 0 0 0;
+}
+
+button#save {
+  width: 25%;
+  padding: 20px 3%;
+  border-radius: 24px;
+  margin: 20px 5px 20px 5px;
+  display: flex;
+  justify-content: center;
+  background-color: darkgreen;
+  color: white;
+}
+
+button#delate-all {
+  width: 25%;
+  padding: 20px 3%;
+  border-radius: 24px;
+  margin: 20px 5px 20px 10px;
+  display: flex;
+  justify-content: center;
+  background-color: darkred;
+  color: white;
+}
