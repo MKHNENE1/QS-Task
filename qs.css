@@ -38,6 +38,9 @@ button#ans {
   background-color: darkred;
   color: white;
 }
+button#delete-all{
+  background-color: darkred;
+}
 button#delete-all,
 button#ans,
 input {
